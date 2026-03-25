@@ -95,8 +95,4 @@ Your support helps keep the project growing.
 ---
 
 🔧 TaskForge — Build Your Toolkit. Run Your World.
-# TaskForge
-TaskForge is a lightweight, zero‑dependency task runner that lets you organize and execute custom tools, scripts, and utilities in a clean, browser‑based menu system. Drop in your modules, run them instantly, and build a personal toolkit that works anywhere.
 
-No license. All rights reserved.  
-You may use TaskForge, but you may not modify or redistribute it without permission.

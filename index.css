@@ -1,0 +1,145 @@
+/* UI base theme: dark neon */
+:root {
+    --ui-font-size: 48px;
+}
+
+/* Page body layout */
+body {
+    background: black;
+    color: #8000FF;
+    font-family: monospace;
+    padding: 20px;
+    font-size: var(--ui-font-size);
+}
+
+/* Job text area */
+textarea {
+    width: 100%;
+    height: 500px;
+    background: #111;
+    color: #8000FF;
+    border: 2px solid #8000FF;
+    padding: 20px;
+    font-size: var(--ui-font-size);
+    white-space: pre;
+}
+
+/* Base button style */
+button {
+    background: #8000FF;
+    color: black;
+    border: none;
+    padding: 20px 40px;
+    margin-top: 20px;
+    font-size: var(--ui-font-size);
+}
+
+/* Text input fields */
+input {
+    background: #111;
+    color: #8000FF;
+    border: 2px solid #8000FF;
+    padding: 10px;
+    width: 300px;
+    font-size: var(--ui-font-size);
+}
+
+/* Progress text */
+#progress {
+    margin-top: 20px;
+    font-size: var(--ui-font-size);
+    color: #8000FF;
+}
+
+/* ------------------------- */
+/* Menu system styles        */
+/* ------------------------- */
+
+/* Menu container block */
+#menu {
+    margin-top: 20px;
+}
+
+/* Main and submenu buttons */
+.menu-btn {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    font-size: var(--ui-font-size);
+    background: #8000FF;
+    color: black;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Submenu title text */
+.submenu-title {
+    font-size: var(--ui-font-size);
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+/* Submenu header frame */
+.submenu-header {
+    background: black;
+    color: #8000FF;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: var(--ui-font-size);
+    border: 2px solid #8000FF;
+}
+``````css
+/* UI base theme: dark neon */
+:root {
+    --ui-font-size: 48px;
+}
+
+/* Page body layout */
+body {
+    background: black;
+    color: #8000FF;
+    font-family: monospace;
+    padding: 20px;
+    font-size: var(--ui-font-size);
+}
+
+/* Job text area */
+textarea {
+    width: 100%;
+    height: 500px;
+    background: #111;
+    color: #8000FF;
+    border: 2px solid #8000FF;
+    padding: 20px;
+    font-size: var(--ui-font-size);
+    white-space: pre;
+}
+
+/* Base button style */
+button {
+    background: #8000FF;
+    color: black;
+    border: none;
+    padding: 20px 40px;
+    margin-top: 20px;
+    font-size: var(--ui-font-size);
+}
+
+/* Text input fields */
+input {
+    background: #111;
+    color: #8000FF;
+    border: 2px solid #8000FF;
+    padding: 10px;
+    width: 300px;
+    font-size: var(--ui-font-size);
+}
+
+/* Progress text */
+#progress {
+    margin-top: 20px;
+    font-size: var(--ui-font

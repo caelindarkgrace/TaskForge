@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Loader</title>
+  <link rel="stylesheet" href="index.css">
+
+  <!--
+    JOB LOADER FRONT SHELL
+    Menus from JOB_LIST in index.js
+    Edit JOB_LIST to change menus
+    index.js = menu engine
+  -->
+</head>
+
+<body>
+
+  <h1>Job Loader</h1>
+
+  <!-- Back button, hidden by JS -->
+  <button id="globalBackBtn"
+          class="menu-btn"
+          style="margin-bottom:20px; display:none;">
+    ← Back to Main Menu
+  </button>
+
+  <!-- Menu container -->
+  <div id="menu"></div>
+
+  <!-- Job output container -->
+  <div id="app"></div>
+
+  <!-- File helper -->
+  <script src="fileloader.js"></script>
+
+  <!-- Menu engine -->
+  <script src="index.js"></script>
+
+</body>
+</html>
